@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-12T10:33:42.179Z
-modified: 2026-10-14T16:32:06.071Z
+modified: 2026-10-19T15:45:07.781Z
 ---
 
 # Some notes on Rstudio and R
@@ -79,7 +79,7 @@ install.packages("tinytex")
 install.packages("knitr")
 ```
 
-### Why Rmarkdown
+#### Why Rmarkdown
 
 Both the R code as well as the original data and also some text can be made into an html file using Rmarkdown. This is a good idea because:
 
@@ -88,7 +88,7 @@ Both the R code as well as the original data and also some text can be made into
 - Tutorials
 - Learning R
 
-## 02 Basics
+### 02 Basics
 
 - Got into issues while trying to "knit" some document
 - Tried installing the "Rcpp" package
@@ -105,7 +105,7 @@ install.packages(
 )
 ```
 
-- The "Run all chunks above" is a really useful button!![[run-al-chunks-above.png]]
+- The "Run all chunks above" is a really useful button ![[00Archive/run-al-chunks-above.png]]
 - Make good use of the Headings feature to go from topic to topic while editing (You can see under the Outlines tab just besides the code editor window)
 - Idea: Create a R Project and make different RMarkdown files
   - I started out with EPE under the folder LearningR
