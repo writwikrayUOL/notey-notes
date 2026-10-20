@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-12T10:33:42.179Z
-modified: 2026-10-20T13:20:57.309Z
+modified: 2026-10-20T13:22:22.379Z
 ---
 
 # Some notes on Rstudio and R
@@ -111,6 +111,8 @@ install.packages(
   - I started out with EPE under the folder LearningR
 
 ## Demo R Code
+
+The code chunks below should be running and printed along with its output to my website!
 
 ```R
 # file.choose() is an useful function!
