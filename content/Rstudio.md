@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-12T10:33:42.179Z
-modified: 2026-10-20T13:29:54.536Z
+modified: 2026-10-20T13:32:19.209Z
 ---
 
 # Some notes on Rstudio and R
@@ -125,19 +125,9 @@ summary(iris2)
 
 ```
 
-sepal.length    sepal.width     petal.length    petal.width\
-Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100\
-1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300\
-Median :5.800   Median :3.000   Median :4.350   Median :1.300\
-Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199\
-3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800\
-Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500\
-variety\
-Length   :150\
-N.unique :  3\
-N.blank  :  0\
-Min.nchar:  6\
-Max.nchar: 10
+```codesuite-output
+{"v":1,"hash":"n3gm5d","exit":0,"label":"Output","stdout":"  sepal.length    sepal.width     petal.length    petal.width   \n Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  \n 1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  \n Median :5.800   Median :3.000   Median :4.350   Median :1.300  \n Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  \n 3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  \n Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  \n      variety   \n Length   :150  \n N.unique :  3  \n N.blank  :  0  \n Min.nchar:  6  \n Max.nchar: 10  \n                \n","stderr":"","figures":[]}
+```
 
 ```R
 
