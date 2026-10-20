@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-12T10:33:42.179Z
-modified: 2026-10-19T15:45:07.781Z
+modified: 2026-10-20T12:24:51.725Z
 ---
 
 # Some notes on Rstudio and R
