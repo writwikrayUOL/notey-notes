@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-12T10:33:42.179Z
-modified: 2026-10-20T12:24:51.725Z
+modified: 2026-10-20T13:20:57.309Z
 ---
 
 # Some notes on Rstudio and R
@@ -109,3 +109,28 @@ install.packages(
 - Make good use of the Headings feature to go from topic to topic while editing (You can see under the Outlines tab just besides the code editor window)
 - Idea: Create a R Project and make different RMarkdown files
   - I started out with EPE under the folder LearningR
+
+## Demo R Code
+
+```R
+# file.choose() is an useful function!
+#iris1 <- read.table(file=file.choose())
+# Now let's read the csv!
+iris2 <- read.csv(file="/home/writwik/data-science/datasets/iris.csv")
+
+#summary
+summary(iris2)
+
+#I  want to remove the headers(column names)
+iris_cleaned <- read.csv("/home/writwik/data-science/datasets/iris.csv",header=FALSE, skip=1)
+iris_cleaned
+
+summary(iris_cleaned)
+
+names(iris_cleaned) <- c("Sepal.Length","Sepal.Width","Petal.Length","Petal.Width","Species" )
+names(iris_cleaned)
+summary(iris_cleaned)
+
+colnames(iris_cleaned)
+rownames(iris_cleaned)
+```
